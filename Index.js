@@ -12,6 +12,17 @@ export const nigeriaStates = [
     payOnDelivery: 15000,
   },
   {
+    name: "Federal Capital Territory",
+    doorstepDelivery: 8000,
+    pickupService: {
+        delivery: 8000,
+        pickupStation: [
+            { name: "Abaji Pickup Center" },
+        ]
+    },
+    payOnDelivery: 15000,
+  },
+  {
     name: "Adamawa",
     doorstepDelivery: 5000,
     pickupService: {
