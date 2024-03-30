@@ -434,3 +434,5 @@ export const nigeriaStates = [
         ]
     },
     payOnDelivery: 15000,
+  }
+  ]
