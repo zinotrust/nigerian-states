@@ -14,6 +14,14 @@ export const nigeriaStates = [
   {
     name: "Federal Capital Territory",
     doorstepDelivery: 8000,
+    region: [
+      { name: "Abaji", delivery: 8000 },
+      { name: "Abuja Municipal", delivery: 8000 },
+      { name: "Bwari", delivery: 8000 },
+      { name: "Gwagwalada", delivery: 8000 },
+      { name: "Kuje", delivery: 8000 },
+      { name: "Kwali", delivery: 8000 },
+    ],
     pickupService: {
         delivery: 8000,
         pickupStation: [
@@ -25,11 +33,29 @@ export const nigeriaStates = [
   {
     name: "Adamawa",
     doorstepDelivery: 5000,
+    region: [
+      { name: "Demsa", delivery: 5000 },  
+      { name: "Fufore", delivery: 5000 },  
+      { name: "Ganaye", delivery: 5000 },  
+      { name: "Gireri", delivery: 5000 },  
+      { name: "Gombi", delivery: 5000 },  
+      { name: "Guyuk", delivery: 5000 },  
+      { name: "Hong", delivery: 5000 },  
+      { name: "Jada", delivery: 5000 },  
+      { name: "Lamrude", delivery: 5000 },  
+      { name: "Madagali", delivery: 5000 },  
+      { name: "Maiha", delivery: 5000 },  
+      { name: "Mayo-Belwa", delivery: 5000 },  
+      { name: "Mubi North", delivery: 5000 },  
+      { name: "Mubi South", delivery: 5000 },  
+      { name: "Numan", delivery: 5000 },  
+      { name: "Sheleng", delivery: 5000 },  
+    ]
     pickupService: {
         delivery: 10000,
         pickupStation: [
             { name: "Yola Pickup Center" }
-        ]
+        ],
     },
     payOnDelivery: 15000,
   },
